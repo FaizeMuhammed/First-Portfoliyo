@@ -8,7 +8,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
 }
+
 
 header {
   background-color: #25b79f;
@@ -75,13 +77,13 @@ header {
 }
 
 .home-content .name h1 {
-  font-size: 2.2rem;
+  font-size: 60px;
   text-align: center;
 }
 
 .home-content .name p {
   color: #f0f0e6;
-  font-size: 1.5rem;
+  font-size: 30px;
 }
 
 .angle-down-icon {
