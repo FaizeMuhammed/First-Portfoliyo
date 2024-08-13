@@ -613,6 +613,33 @@ header {
   .right-content h1 {
     margin-top: 3.2rem;
   }
+  .menu-items {
+    display: flex;
+    gap: 2px;
+  }
+  
+  .menu-items li {
+    list-style: none;
+    padding: 2px;
+  
+    border-radius: 2px;
+    transition: all 0.3s ease; 
+  }
+  .menu-items li:hover{
+    background-color: #07374a;
+    padding: 3px;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 12px;
+    padding: 0.3rem;
+    font-weight: 300;
+  }
+  .menu-items a:hover{
+    font-size: 14px;
+  }
 
   .proj-1 {
     display: flex;
