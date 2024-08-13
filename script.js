@@ -38,4 +38,6 @@ $(document).ready(function () {
     });
 });
 
-    
+window.onload = function() {
+    document.getElementById('intro').classList.add('hover-effect');
+};
